@@ -1,0 +1,9 @@
+{
+  "main": "./repl.js",
+  "registry": "github",
+  "map": {
+    "./repl.js": {
+      "node": "@node/repl"
+    }
+  }
+}

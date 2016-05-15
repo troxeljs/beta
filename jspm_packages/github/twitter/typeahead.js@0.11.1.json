@@ -1,0 +1,10 @@
+{
+  "main": "dist/typeahead.jquery.js",
+  "meta": {
+    "dist/typeahead.jquery.js": {
+      "deps": [
+        "jquery"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "main": "index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "lib/request.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/response.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}

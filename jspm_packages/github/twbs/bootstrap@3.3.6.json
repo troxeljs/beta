@@ -1,0 +1,11 @@
+{
+  "main": "dist/js/bootstrap.js",
+  "meta": {
+    "dist/js/bootstrap.js": {
+      "deps": [
+        "jquery"
+      ],
+      "exports": "$"
+    }
+  }
+}

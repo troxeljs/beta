@@ -1,0 +1,24 @@
+{
+  "main": "index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "lib/utils/input-source-map-tracker.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/utils/source-reader.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}

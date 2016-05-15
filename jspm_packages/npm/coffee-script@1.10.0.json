@@ -1,0 +1,22 @@
+{
+  "main": "lib/coffee-script/coffee-script",
+  "map": {
+    "child_process": "@empty"
+  },
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "lib/coffee-script/repl.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}

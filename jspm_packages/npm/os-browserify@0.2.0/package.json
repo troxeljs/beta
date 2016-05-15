@@ -1,0 +1,20 @@
+{
+	"name": "os-browserify",
+	"version": "0.2.0",
+	"author": "Drew Young",
+	"license": "MIT",
+	"main": "main.js",
+	"browser": "browser.js",
+	"jspm": {
+		"map": {
+			"./main.js": {
+				"node": "@node/os",
+				"browser": "./browser.js"
+			}
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/drewyoung1/os-browserify.git"
+	}
+}
